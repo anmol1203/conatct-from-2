@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="main_heading">Contact Form</h2>
+      <hr />
+      <h4>
+        Please fill in your information and we'll reach you within 24 hours
+      </h4>
+      <p>
+        &nbsp; &nbsp; &nbsp; &nbsp; First Name:
+        <input
+          type="text"
+          name="first name"
+          id="first name"
+          required
+          placeholder="First Name"
+        />
+        &nbsp; &nbsp; &nbsp; &nbsp; Last Name:
+        <input
+          type="text"
+          name="last name"
+          id="last name"
+          placeholder="Last name"
+          required
+        />
+      </p>
+      <p>
+        &nbsp; &nbsp; &nbsp; &nbsp;Your Email:
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="abc@gmail.com"
+        />
+      </p>
+      <p>
+        Contact Number:
+        <input
+          type="number"
+          name="number"
+          id="number"
+          placeholder="+91"
+          required
+        />
+      </p>
+      <p>
+        Message Subject:
+        <input
+          type="text"
+          name="message"
+          id="message"
+          placeholder="Give us a short hint"
+        />
+      </p>
+      <p>
+        Message:&nbsp; <br />
+        <textarea
+          name="subject"
+          id="subject"
+          cols="50"
+          rows="7"
+          placeholder="Briefly explain it to us"
+        ></textarea>
+      </p>
+      <input type="submit" value="Send Query" />
+    </div>
+  </body>
+</html>

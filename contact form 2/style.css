@@ -1,0 +1,56 @@
+{ 
+    box-sizing:border-box;
+}
+
+.container{
+    background-color: #647409a4;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid rgba(4, 79, 20, 0.874);
+    border-radius: 8px;
+}
+
+.main_heading {
+    text-align: center;
+}
+
+.p{
+    text-align:center;
+}
+
+body
+{
+    font-family: font-family: "Gill Sans", sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+
+}
+
+input[type="Your Name"];
+input[type="Your Email"];
+input[type="Phone"];
+input[type="Message Subject"];
+input[type="Message"];
+
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(37, 75, 2, 0.938);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input[type="submit"] {
+    background-color: #668b17;
+    color: rgba(16, 17, 16, 0.993);
+    padding: 12px 20px;
+    border: 1px solid  rgba(4, 79, 20, 0.874);
+    border-radius: 4px;
+    cursor: pointer;
+    width: 25%;
+}
+
+input[type="submit"]:hover{
+    background-color: #6c870cef;
+    box-shadow: 0 0 5px #318416d8, 0 0 25px #318416d8;
+}
